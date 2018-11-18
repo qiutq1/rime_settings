@@ -1,18 +1,9 @@
 # Rime schema
 # encoding: utf-8
 
-schema:
-  dependencies:
-    - wubi86
-
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 汉字, 汉字 ]
-  - name: ascii_punct
-    states: [ 。，, ．， ]
-
+patch:
+  schema:
+    dependencies: 
+      - wubi86
+  reverse_lookup:
+    dictionary: wubi86
