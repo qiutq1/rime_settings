@@ -15,3 +15,11 @@ patch:
       states: [ 常用, 增广 ]
     - name: ascii_punct
       states: [ 。，, ．， ]
+  speller:
+    max_code_length: 4
+    auto_select: max_length
+    auto_clear: manual
+  translator/enable_sentence: false
+  key_binder/bindings:
+    - {when: has_menu, accept: semicolon, send: 2}
+    - {when: has_menu, accept: apostrophe, send: 3}

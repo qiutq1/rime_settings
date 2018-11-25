@@ -3,6 +3,13 @@
 
 patch:
   schema_list:
-    - schema: luna_pinyin_simp
     - schema: wubi86
+    - schema: luna_pinyin_simp
   'switcher/caption': 〔方案选择〕
+  ascii_composer/switch_key:
+    Caps_Lock: clear
+    Control_L: noop
+    Control_R: noop
+    Eisu_toggle: clear
+    Shift_L: commit_code
+    Shift_R: commit_code
