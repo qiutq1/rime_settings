@@ -5,7 +5,9 @@ patch:
   schema_list:
     - schema: wubi86
     - schema: luna_pinyin_simp
-  'switcher/caption': 〔方案选择〕
+  switcher/caption: 〔方案选择〕
+  switcher/hotkeys: 
+    - "Control+Shift+grave"
   ascii_composer/switch_key:
     Caps_Lock: clear
     Control_L: noop

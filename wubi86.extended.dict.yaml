@@ -1,0 +1,11 @@
+---
+name: wubi86.extended
+version: "201805"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - wubi86
+...
+
+您好	wqvb	1
+# 省略其他词汇，涉及隐私，到百度网盘下载
